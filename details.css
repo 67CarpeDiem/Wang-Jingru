@@ -1,0 +1,84 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-size: 18px;
+	color: #333;
+	background: url(../images/bg.jpg) no-repeat;
+	background-size:cover ;
+}
+
+
+
+header{
+	width: 1200px;
+	margin:0 auto;
+	background-color: rgba(255, 255, 255, 0.9);
+	height: 100%;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+.banner{
+	height: 400px;
+	background: url(../images/product.gif);
+	background-size:cover;
+	border-radius: 20px;
+}
+.banner>h1{
+	height: 400px;
+	line-height: 400px;
+	text-align:center;
+	font-size: 50px;
+	color: white;
+	font-weight: lighter;
+	font-family:'Times New Roman', Times, serif;
+}
+.nav{
+	height: 45px;
+	margin-top: 150px;
+}
+.nav td{
+	text-align: center;
+	border-top: dotted;
+	border-bottom: dotted;
+	width: 400px;
+	margin: 10px;
+}
+.nav td a{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 30px;
+	text-decoration:none;
+	display: block;
+	height: 35px;
+	line-height: 35px;
+	color:orange;
+}
+.nav td a:hover{
+	color: blue;
+}
+.next{
+	height: 450px;
+	background: url(../images/background.jpg);
+	background-size:cover;
+	border-radius: 20px;
+
+}
+.title{
+	font-family: 'Times New Roman', Times, serif;
+	margin-top: 10px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-weight: normal;
+	font-size: 30px;
+	border-bottom: dotted;
+}
+.content{
+	margin-top: 10px;
+	font-weight: normal;
+	text-indent: 2em;
+}
+.beauty td , .footer{
+text-align: center;
+}
